@@ -1,0 +1,213 @@
+/* styling for the entire page */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling for the page body */
+body{
+    background-color: #F0F2F5;
+}
+
+/* styling for the page header */
+header{
+    display: flex;
+    align-items: left;
+    background: #FFFFFF;
+    padding: 7px 1.5%;
+    box-shadow: 2px 2px 10px #DCDCDC;
+    justify-content: space-between;
+}
+
+/* alignment for subheader contents */
+.header-left, .header-center, .header-right{
+    display: flex;
+    align-items: center;
+
+}
+
+/* fb icon size */
+.header-left img{
+    height: 40px;
+    width: 40;
+}
+
+/* text input design */
+.header-left input[type=text]{
+    margin-left: 10px;
+    border: none;
+    background: transparent;
+    opacity: 50%;
+}
+
+/* search bar design */
+.search{
+    background: #F0F2F5;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-left: 10px;
+}
+
+/* magnifying glass icon size */
+.search img{
+    height: 20px;
+    width: 20px;
+}
+
+/* section icons size (pages, groups, games, etc.) */
+.sections{
+    height: 27px;
+    margin-left: 75px; 
+}
+
+/* taskbar icons size (messenger, notifications, etc.) */
+.taskbar{
+    height: 45px;
+    margin-left: 7px;
+}
+
+/* profile name design */
+.username1{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+/* header profile picture margin */
+.dp1{
+    margin-left: 65px;
+}
+
+/* profile and taskbar icons size */
+.header-right img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* sets margins and size for center panel */
+.posts{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:#FFFFFF;
+    box-shadow: 2px 2px 10px #DCDCDC;
+}
+
+/* sets margins and size for left panel*/
+.left-side{
+    float: left;
+    width: 20%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+/* sets margins and size for right panel */
+.right-side{
+    float: right;
+    width: 20%;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+/* sets border radius for dp on left side */
+.dp2{
+    border-radius: 50%;
+} 
+
+/* sets image size for sidebar icons */
+.explore img{
+    height: 30px;
+    width: 30px;
+}
+
+/* sets display and alignment for sidepanel */
+.explore li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* sets offset for text on the left panel */
+.sidetext{
+    margin-left: 10px;
+}
+
+/* sets font size for text on the left panel */
+.left-side{
+    font-size: 13px;
+} 
+
+/* sets opacity for horizontal line */
+hr{
+    opacity: 15%;
+}
+
+.dp3{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+/* sets display and alignment for sidepanel */
+.posts li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-user{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.post-time{
+    margin-left: 7px;
+    font-size: 13px;
+    opacity: 50%;
+}
+
+.post-content{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.headers{
+    font-size: 15px;
+    opacity: 75%;
+    color: #65676B;
+
+}
+
+.ad{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.friend-requests img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.friend-requests li{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.friend-name{
+    margin-left: 7px;
+    font-size: 12px;
+}
