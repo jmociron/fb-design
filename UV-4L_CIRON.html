@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="UV-4L_CIRON.css">
 </head>
 <body>
+    <!-- header with links -->
     <header>
         <!-- contains the search bar and fb logo -->
         <section class="header-left">
             <img src="images/fb.png"> 
             <section class="search">
                 <img src="images/search.png">
-                <input type="text" placeholder="Search Facebook">
-                
+                <input type="text" placeholder="Search Facebook">  
             </section>
         </section>
         <!-- contains the section buttons (pages, groups, games, etc.) -->
@@ -80,6 +80,28 @@
         </section>
         <br>
         <hr>
+        <br>
+        <section class="shortcuts">
+            <b class="headers">Your Shortcuts</b>
+            <ul style="list-style-type:none;">
+                <li> 
+                    <img src="images/stick-run.jpg">
+                    <span class="shortcut-name">Stick Run</span>
+                </li>
+                <li> 
+                    <img src="images/tetris.png">
+                    <span class="shortcut-name">TETRIS Battle</span>
+                </li>
+                <li> 
+                    <img src="images/pet-society.jpg">
+                    <span class="shortcut-name">Pet Society</span>
+                </li>
+                <li> 
+                    <img src="images/wild-ones.png">
+                    <span class="shortcut-name">Wild Ones</span>
+                </li>
+            </ul>
+        </section>
     <!-- right sidebar: suggested pages (ads), friend requests -->
     </aside>
     <aside class="right-side">
@@ -94,26 +116,36 @@
             <br>
             <b class="headers">Friend Requests</b>
             <ul style="list-style-type:none;">
-                <li> 
-                    <img src="images/dp7.jpeg">
-                    <span class="friend-name">Facebook User</span>
-                </li>
-                <li> 
-                    <img src="images/dp8.jpeg">
-                    <span class="friend-name">Facebook User</span>
-                </li>
-                <li> 
-                    <img src="images/dp9.jpeg">
-                    <span class="friend-name">Facebook User</span>
-                </li>
-                <li> 
-                    <img src="images/dp10.jpeg">
-                    <span class="friend-name">Facebook User</span>
-                </li>
-                <li> 
-                    <img src="images/dp11.jpeg">
-                    <span class="friend-name">Facebook User</span>
-                </li>
+                <section class="user-request">
+                    <li> 
+                        <img src="images/dp7.jpeg">
+                        <span class="friend-name"><b>Facebook User</b></span>
+                    </li>
+                    <li class="friend-buttons">
+                        <button class="confirm"><b>Confirm</b></button>
+                        <button class="delete"><b>Delete</b></button>
+                    </li>
+                </section>
+                <section class="user-request">
+                    <li> 
+                        <img src="images/dp8.jpeg">
+                        <span class="friend-name"><b>Facebook User</b></span>
+                    </li>
+                    <li class="friend-buttons">
+                        <button class="confirm"><b>Confirm</b></button>
+                        <button class="delete"><b>Delete</b></button>
+                    </li>
+                </section>
+                <section class="user-request">
+                    <li> 
+                        <img src="images/dp9.jpeg">
+                        <span class="friend-name"><b>Facebook User</b></span>
+                    </li>
+                    <li class="friend-buttons">
+                        <button class="confirm"><b>Confirm</b></button>
+                        <button class="delete"><b>Delete</b></button>
+                    </li>
+                </section>
             </ul>
         </section>
     </aside>
@@ -129,8 +161,33 @@
             </li>
             <li>
                 <span class="post-content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Look at my cute dog!
                 </span>
+            </li>
+            <br>
+            <li>
+                <figure>
+                    <img src="images/dog.jpg" style="width:100%">
+                    <figcaption>
+                        <img src="images/heart.png" class="reactions">
+                        <span class="react-count">1.6k</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <hr>
+            <li>
+                <button class="react-button">
+                    <img src="images/like.png" class="react-icons">
+                    <span class="react-name">Like</span>
+                </button>
+                <button class="react-button">
+                    <img src="images/comment.png" class="react-icons">
+                    <span class="react-name">Comment</span>
+                </button>
+                <button class="react-button">
+                    <img src="images/send.png" class="react-icons">
+                    <span class="react-name">Share</span>
+                </button>
             </li>
             </ul>
         </section>
@@ -147,6 +204,21 @@
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                 </span>
             </li>
+            <hr>
+            <li>
+                <button class="react-button">
+                    <img src="images/like.png" class="react-icons">
+                    <span class="react-name">Like</span>
+                </button>
+                <button class="react-button">
+                    <img src="images/comment.png" class="react-icons">
+                    <span class="react-name">Comment</span>
+                </button>
+                <button class="react-button">
+                    <img src="images/send.png" class="react-icons">
+                    <span class="react-name">Share</span>
+                </button>
+            </li>
             </ul>
         </section>
         <!-- third post -->
@@ -162,6 +234,21 @@
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                 </span>
             </li>
+            <hr>
+            <li>
+                <button class="react-button">
+                    <img src="images/like.png" class="react-icons">
+                    <span class="react-name">Like</span>
+                </button>
+                <button class="react-button">
+                    <img src="images/comment.png" class="react-icons">
+                    <span class="react-name">Comment</span>
+                </button>
+                <button class="react-button">
+                    <img src="images/send.png" class="react-icons">
+                    <span class="react-name">Share</span>
+                </button>
+            </li>
             </ul>
         </section>
         <!-- fourth post -->
@@ -176,6 +263,21 @@
                 <span class="post-content">
                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
                 </span>
+            </li>
+            <hr>
+            <li>
+                <button class="react-button">
+                    <img src="images/like.png" class="react-icons">
+                    <span class="react-name">Like</span>
+                </button>
+                <button class="react-button">
+                    <img src="images/comment.png" class="react-icons">
+                    <span class="react-name">Comment</span>
+                </button>
+                <button class="react-button">
+                    <img src="images/send.png" class="react-icons">
+                    <span class="react-name">Share</span>
+                </button>
             </li>
             </ul>
         </section>

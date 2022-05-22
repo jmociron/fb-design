@@ -12,11 +12,14 @@ body{
 
 /* styling for the page header */
 header{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    padding: 7px 1.5%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px #DCDCDC;
     display: flex;
     align-items: left;
-    background: #FFFFFF;
-    padding: 7px 1.5%;
-    box-shadow: 2px 2px 10px #DCDCDC;
     justify-content: space-between;
 }
 
@@ -63,12 +66,14 @@ header{
 .sections{
     height: 27px;
     margin-left: 75px; 
+    opacity: 60%;
 }
 
 /* taskbar icons size (messenger, notifications, etc.) */
 .taskbar{
-    height: 45px;
-    margin-left: 7px;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
 }
 
 /* profile name design */
@@ -81,26 +86,9 @@ header{
 /* header profile picture margin */
 .dp1{
     margin-left: 65px;
-}
-
-/* profile and taskbar icons size */
-.header-right img{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
-}
-
-/* sets margins and size for center panel */
-.posts{
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 40%;
-    border: none;
-    border-radius: 5px;
-    padding: 20px;
-    background-color:#FFFFFF;
-    box-shadow: 2px 2px 10px #DCDCDC;
 }
 
 /* sets margins and size for left panel*/
@@ -142,6 +130,24 @@ header{
     margin-left: 10px;
 }
 
+.shortcuts img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.shortcuts li{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shortcut-name{
+    margin-left: 7px;
+    font-size: 12px;
+}
+
 /* sets font size for text on the left panel */
 .left-side{
     font-size: 13px;
@@ -152,10 +158,83 @@ hr{
     opacity: 15%;
 }
 
+.headers{
+    font-size: 15px;
+    opacity: 75%;
+    color: #65676B;
+
+}
+
+.ad{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.friend-requests img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.user-request{
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:#FFFFFF;
+    box-shadow: 2px 2px 10px #DCDCDC;
+}
+
+.user-request li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.friend-name{
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+.confirm{
+    border: none;
+    border-radius: 7px;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 50%;
+    background-color: #1B74E4;
+    color: #FFFFFF;
+}
+
+.delete{
+    border: none;
+    border-radius: 7px;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+}
+
 .dp3{
     height: 35px;
     width: 35px;
     border-radius: 50%;
+}
+
+/* sets margins and size for center panel */
+.posts{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:#FFFFFF;
+    box-shadow: 2px 2px 10px #DCDCDC;
 }
 
 /* sets display and alignment for sidepanel */
@@ -181,33 +260,50 @@ hr{
     text-align: justify;
 }
 
-.headers{
-    font-size: 15px;
-    opacity: 75%;
-    color: #65676B;
-
-}
-
-.ad{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-}
-
-.friend-requests img{
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-}
-
-.friend-requests li{
+figcaption{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.friend-name{
-    margin-left: 7px;
+.reactions{
+    height: 17px;
+    width: 17px;
+}
+
+.react-count{
+    margin-left: 3px;
     font-size: 12px;
+    opacity: 50%;
+}
+
+.posts hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.react-button{
+    border: none;
+    font-size: 12px;
+    padding: 2px 6px 2px 6px;
+    /* padding: 10px; */
+    width: 33.33%;
+    background-color: #FFFFFF;
+    color: #606266;
+
+}
+
+.react-icons{
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    opacity: 60%;
+    vertical-align: middle;
+}
+
+.react-name{
+    margin-top:  2px;
+    vertical-align: middle;
 }
